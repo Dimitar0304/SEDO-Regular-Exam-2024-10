@@ -1,10 +1,10 @@
-name: .NET
+name: develop workflow
 
 on:
   push:
     branches: [ "develop" ]
   pull_request:
-    branches: ["develop"]
+    branches: [ "develop" ]
 
 jobs:
   build:
